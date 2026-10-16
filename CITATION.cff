@@ -18,8 +18,9 @@ authors:
       53, Avenue Mounier, Bureau 53.02.1138
     orcid: 'https://orcid.org/0000-0002-6680-2917'
 date-released: '2022-10-06'
+version: V1.0.1
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.XXXXXXX
-    description: Concept DOI for the repository
+    value: 10.5281/zenodo.23425601
+    description: Version V1.0.1 DOI
 license: BSD-3-Clause
