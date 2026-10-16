@@ -23,4 +23,6 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23425601
     description: Version V1.0.1 DOI
+url: 'https://github.com/rtivadar/EEG_analysis_preprocessing_GFP'
+repository-code: 'https://github.com/rtivadar/EEG_analysis_preprocessing_GFP'
 license: BSD-3-Clause
