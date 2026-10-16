@@ -13,7 +13,13 @@ authors:
   - given-names: Ruxandra Iolanda
     family-names: Tivadar
     affiliation: >-
-      Institute of Computer Science, University of
-      Bern, 3012, Switzerland
+      Crossmodal Perception and Plasticity Lab
+      Institutes for Research in Psychology (IPSY) and Neuroscience (IoNS) -  UCLouvain
+      53, Avenue Mounier, Bureau 53.02.1138
     orcid: 'https://orcid.org/0000-0002-6680-2917'
 date-released: '2022-10-06'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.XXXXXXX
+    description: Concept DOI for the repository
+license: BSD-3-Clause
