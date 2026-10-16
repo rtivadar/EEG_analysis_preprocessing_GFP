@@ -3,8 +3,7 @@
 
 cff-version: 1.2.0
 title: >-
-  EEG Pre-processing and Analysis tutorials using MNE
-  Python 
+Basic EEG Pre-processing and Analysis tutorials
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
