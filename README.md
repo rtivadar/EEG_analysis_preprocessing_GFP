@@ -1,4 +1,4 @@
-[![DOI: 10.5281/zenodo.23425600](https://shields.io)](https://zenodo.org
+[![DOI: 10.5281/zenodo.23425600](https://shields.io)](https://zenodo.org)
 EEG analysis
 
 Jupiter notebooks based on MNE Python for EEG preprocessing and analysis.
