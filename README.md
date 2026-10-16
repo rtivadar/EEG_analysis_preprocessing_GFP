@@ -1,4 +1,4 @@
-[![DOI: 10.5281/zenodo.23425600](https://shields.io)](https://zenodo.org/records/23425601))
+[![DOI: 10.5281/zenodo.23425600](https://shields.io)](https://zenodo.org/records/23425601)
 
 EEG pre-processing and basic global field power (GFP) analysis
 
