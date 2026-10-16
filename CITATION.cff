@@ -21,7 +21,7 @@ date-released: '2022-10-06'
 version: V1.0.1
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.23425601
+    value: 10.5281/zenodo.23425603
     description: Version V1.0.1 DOI
 url: 'https://github.com/rtivadar/EEG_analysis_preprocessing_GFP'
 repository-code: 'https://github.com/rtivadar/EEG_analysis_preprocessing_GFP'
