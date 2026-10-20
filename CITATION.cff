@@ -1,20 +1,15 @@
-# This CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
-
 cff-version: 1.2.0
 title: >-
-Basic EEG pre-processing and analysis tutorials
+  Basic EEG pre-processing and analysis tutorials
 message: >-
-  If you use this software, please cite it using the
-  metadata from this file.
+  If you use this software, please cite it using the metadata from this file.
 type: software
 authors:
   - given-names: Ruxandra Iolanda
     family-names: Tivadar
     affiliation: >-
-      Crossmodal Perception and Plasticity Lab
-      Institutes for Research in Psychology (IPSY) and Neuroscience (IoNS) -  UCLouvain
-      53, Avenue Mounier, Bureau 53.02.1138
+      Crossmodal Perception and Plasticity Lab, Institutes for Research in
+      Psychology (IPSY) and Neuroscience (IoNS), UCLouvain
     orcid: 'https://orcid.org/0000-0002-6680-2917'
 date-released: '2022-10-06'
 version: V1.0.1
@@ -22,6 +17,6 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23425603
     description: Version V1.0.1 DOI
-url: "https://github.com/rtivadar/EEG_analysis_preprocessing_GFP"
-repository-code: "https://github.com/rtivadar/EEG_analysis_preprocessing_GFP"
+url: 'https://github.com/rtivadar/EEG_analysis_preprocessing_GFP'
+repository-code: 'https://github.com/rtivadar/EEG_analysis_preprocessing_GFP'
 license: BSD-3-Clause
