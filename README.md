@@ -1,4 +1,5 @@
-[![DOI: 10.5281/zenodo.23425600](https://shields.io)](https://zenodo.org/records/23425600)
+[![DOI: 10.5281/zenodo.23425600](https://shields.io)](https://zenodo.org/records/23426003)
+https://doi.org/10.5281/zenodo.23426003
 
 EEG pre-processing and basic global field power (GFP) analysis
 
@@ -9,3 +10,10 @@ This repository contains annotated scripts written in MNE python, that should gu
 For the preprocessing notebook: The procedure that we use here is pretty standard, and contains preparing the recording for artefact exclusion via ICA (e.g. heartbeat, blinks, lateral eye movements, muscle activity), followed by epoching and artefact exclusion via visual inspection (electrode pops, muscle, etc), and at the end electrode interpolation, baseline correction, averaging by condition, and plotting. Various options for plotting are presented, such as topographical plots, spectral plots, average plots. Note that a function is provided at the beginning in section 1 (REFORMATTING OF DATA), which exemplifies a procedure to reformat data (here from the EGI .mff to the MNE .fif - this can be adapted to other formats as well). Given edge effects of filters, filtering is applied at this initial stage of reformatting. The user is encouraged to apply filters of their choice and needs, the ones being used here are adapted to the analysis methods that were applied later, and are in no way a standard, the procedure of filtering being still an issue of debate. For those wishing to read more about the order of pre-processing steps, filtering procedures, and ICA artefact exclusion, some links are provided within the notebook.
 
 For the GFP analysis notebook: GFP is a measure of the power of the whole electrical field at scalp level. As such, it is robust to re-referencing. What this measure can assess is whether there are any differences in the strength of the response between two (or multiple) conditions. This script assumes an experimental design with 1 factor that has three levels. Namely, we tested whether different levels of predictability in the stimuli (30 vs 70 vs 100) would modulate brain response strength. I.e. Is the brain's electrical activity stronger for a surprising event with 30% probability than it is for a more common or expected event with 100% probability? The differences are then statistically tested for significance using a repeated-measures 1-way ANOVA with permutation cluster correction for multiple tests. Some links which explain the theoretical backgrounds of EEG GFP analysis are given, including a practical tutorial. The naive user is encouraged to explore these before applying the script to their own data. As with the pre-processing script, the procedure used here is a suggestion, and in no way the standard or singular correct way to do this analysis.
+
+## Citation
+If you use these tutorials in your research, please cite the Zenodo record:
+>Tivadar, R. I. (2026). EEG Pre-processing and Analysis tutorials using MNE Python (Version v1.0.2) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23426003
+
+## License
+Licensed under the [BSD-3-Clause License](LICENSE).
